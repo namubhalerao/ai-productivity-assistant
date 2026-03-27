@@ -1,26 +1,18 @@
-# Multi-Agent AI Productivity Assistant
+# Multi-Agent Productivity Assistant
 
-This project is a simple multi-agent AI system built using Google Gemini.
+This project is a simple multi-agent AI system that helps users manage tasks and notes.
 
-## 🧠 Architecture
-- Main Agent: Handles user input and routes tasks
-- Task Agent: Adds and displays tasks
-- Suggestion Agent: Provides AI-based responses
+## Features
+- Task management (add/view tasks)
+- Notes management (add/view notes)
+- Suggestion system
+- Multi-agent architecture
 
-## ⚙️ Features
-- Add tasks
-- View tasks
-- AI suggestions and answers
+## How it works
+A main agent coordinates between different agents:
+- Task Agent
+- Notes Agent
+- Suggestion Agent
 
-## 🛠 Tech Stack
-- Python
-- Google Gemini API
-
-## ▶️ How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
-
-2. Add your API key in main.py
-
-3. Run:
-   python main.py
+## How to run
+python main.py
